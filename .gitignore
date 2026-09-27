@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+
+# Сырые данные не выгружаем - они тяжёлые
+data/raw/*.xlsx
+
+# Excel-версию объединённого датасета не выгружаем
+data/processed/*.xlsx
